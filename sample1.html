@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
     <title>AR Plane View</title>
 </head>
 <style>
@@ -26,13 +27,13 @@
     rotation="0 45 0"></a-entity> -->
 
 <!-- rendering 3d model of a plane -->
-<a-asset-item id="plane" src="/plane/scene.gltf"></a-asset-item>
+<a-asset-item id="plane" src="/boeing/scene.gltf"></a-asset-item>
 <a-entity
     gltf-model="#plane"
     scale="1 1 1"
-    position="-30 0 -20"
-    rotation="0 20 0"></a-entity>
-    <a-entity camera></a-entity>
+    position="100 -200 -2000"
+    rotation="0 -180 0"></a-entity>
+    <a-camera></a-camera>
 </a-scene>
 
 </body>
