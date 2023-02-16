@@ -29,7 +29,7 @@ embedded arjs="trackingMethod:best; sourceType:webcam; debugUIEnabled:false;"> -
 
 <!-- rendering 3d model of a plane -->
 <a-scene renderer="logarithmicDepthBuffer:true;">
-<a-asset-item id="plane" src="/boeing/scene.glb"></a-asset-item>
+<a-asset-item response-type="arraybuffer" id="plane" src="/boeing/scene.glb"></a-asset-item>
 <a-entity
     gltf-model="#plane"
     scale="0.5 0.5 0.5"
