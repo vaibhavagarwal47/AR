@@ -28,13 +28,14 @@ embedded arjs="trackingMethod:best; sourceType:webcam; debugUIEnabled:false;"> -
     rotation="0 45 0"></a-entity> -->
 
 <!-- rendering 3d model of a plane -->
-<a-asset-item id="plane" src="/boeing/scene.gltf"></a-asset-item>
+<a-scene>
+<a-asset-item id="plane" src="/boeing/scene.glb"></a-asset-item>
 <a-entity
     gltf-model="#plane"
-    scale="0.2 0.2 0.2"
-    position="0 -50 -650"
-    rotation="0 190 0"></a-entity>
-    <a-entity light="type: hemisphere; color: #33C; groundColor: #3C3; intensity: 2"></a-entity>
+    scale="0.5 0.5 0.5"
+    position="0 -50 -500"
+    rotation="0 0 0"></a-entity>
+    <a-entity light="type: hemisphere; color: white; groundColor: grey; intensity: 2"></a-entity>
 </a-scene>
 
 </body>
