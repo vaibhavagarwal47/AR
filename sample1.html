@@ -28,7 +28,7 @@ embedded arjs="trackingMethod:best; sourceType:webcam; debugUIEnabled:false;"> -
     rotation="0 45 0"></a-entity> -->
 
 <!-- rendering 3d model of a plane -->
-<a-scene>
+<a-scene renderer="logarithmicDepthBuffer:true;">
 <a-asset-item id="plane" src="/boeing/scene.glb"></a-asset-item>
 <a-entity
     gltf-model="#plane"
