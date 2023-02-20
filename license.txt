@@ -1,0 +1,11 @@
+Model Information:
+* title:	iai_westwind
+* source:	https://sketchfab.com/3d-models/iai-westwind-720b02fa673c44fd921a1ef976cea85e
+* author:	avalon47 (https://sketchfab.com/avalon47)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "iai_westwind" (https://sketchfab.com/3d-models/iai-westwind-720b02fa673c44fd921a1ef976cea85e) by avalon47 (https://sketchfab.com/avalon47) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
